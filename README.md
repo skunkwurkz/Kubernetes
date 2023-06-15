@@ -8,7 +8,7 @@ VIM tips and tricks - https://www.dbi-services.com/blog/vim-tips-tricks-for-the-
     a) show line#s
     b) : 12,16y
     c) : 26gg
-    d) p
+    d) p 
 3) search or to to line# with particular word -  /word
 4) search and replace - %s/nginx/web
 5) using registers to copy and paste
