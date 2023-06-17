@@ -27,4 +27,5 @@ VIM tips and tricks - https://www.dbi-services.com/blog/vim-tips-tricks-for-the-
        c) press down arrow to select all the lines that need to be shifted
        d) press shift+i then space bar
        e) press ESC button twice
-7) Very important - undo changes Press ESC + u | replay last action cntrl + r 
+7) Very important - undo changes Press ESC + u | replay last action cntrl + r
+8) Copy paste from kubernetes.io to yaml files - :set paste once paste is done :set nopaste to disable auto-indenting
