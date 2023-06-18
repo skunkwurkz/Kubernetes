@@ -60,3 +60,4 @@ Kubernetes commands
 10) HPA - K autoscale deployment my-deploy –cpu-percent=70 –min=2, --max=8
 11) cronjob ex: K create cronjob current-date –schedule=” * * * * *” - - image=wordpress - - /bin/sh -c ‘echo “Current Date: $(date)”’
 12) expose deployment - k expose deployment my-deploy - - type=NodePort- -port=80 - -target-port=80 - -name=my-service
+13) When using busybox image use --restart=Never kubectl run busybox --image=busybox --command --restart=Never
