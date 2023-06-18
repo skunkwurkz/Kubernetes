@@ -1,6 +1,13 @@
 # Kubernetes
 Kubernetes related knowledge including CKAD prep material
 
+Setting alias
+
+alias k=kubectl
+alias kn='kubectl config set-context --current --namespace'
+export do="-o yaml --dry-run=client"
+export now="--grace-period=0 --force"
+
 VIM tips and tricks - https://www.dbi-services.com/blog/vim-tips-tricks-for-the-kubernetes-cka-exam/
 
 1) show line#s  : set nu
